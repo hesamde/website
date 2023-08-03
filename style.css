@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+
+.card-left {
+    flex: 1;
+    margin-right: 10px;
+    background-color: rgb(34, 144, 254);
+    border-radius: 25px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card-left {
+      margin-bottom: 20px;
+    }
+  }
+
+.card-right {
+    flex: 1.6;
+    background-color: rgb(41, 41, 41);
+    border-radius: 25px;
+    padding: 25px;
+    min-width: 300px;
+    padding-left: 35px;
+}
+
+.a-tags{
+    text-decoration:none;
+}
