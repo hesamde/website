@@ -45,7 +45,8 @@ body {
 
 .card-right {
     flex: 1.6;
-    background-color: rgb(41, 41, 41);
+    background-color:  #0d0d78
+  ;
     border-radius: 25px;
     padding: 25px;
     min-width: 300px;
