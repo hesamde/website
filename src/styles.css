@@ -1,65 +1,61 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    font-family: Poppins, 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: Poppins, "Courier New", Courier, monospace;
 }
 
-
 .container {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  min-height: 80vh;
+  flex-wrap: wrap;
+}
+
+.card-left {
+  flex: 1;
+  margin-right: 10px;
+  background-color: rgb(34, 144, 254);
+  border-radius: 25px;
+  padding: 25px;
+  min-width: 300px;
+  background-image: url(./img/Dehghanmoshtaghin_6x6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-left {
+    margin-bottom: 20px;
     margin: 50px auto;
     width: 90%;
     display: flex;
     min-height: 80vh;
     flex-wrap: wrap;
-}
-
-.card-left {
-    flex: 1;
-    margin-right: 10px;
-    background-color: rgb(34, 144, 254);
-    border-radius: 25px;
-    padding: 25px;
-    min-width: 300px;
-    background-image: url(./img/Dehghanmoshtaghin_6x6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-@media only screen and (max-width: 600px) {
-
-    .card-left {
-      margin-bottom: 20px;
-      margin: 50px auto;
-      width: 90%;
-      display: flex;
-      min-height: 80vh;
-      flex-wrap: wrap;
   }
-    }
-
+}
 
 .card-right {
-    flex: 1.6;
-    background-color:  #0d0d78
-  ;
-    border-radius: 25px;
-    padding: 25px;
-    min-width: 300px;
-    padding-left: 35px;
+  flex: 1.6;
+  background-color: #0d0d78;
+  border-radius: 25px;
+  padding: 25px;
+  min-width: 300px;
+  padding-left: 35px;
 }
 
-.a-tags{
-    text-decoration:none;
-    color: white;
+.a-tags {
+  text-decoration: none;
+  color: white;
 }
-.a-container{
-    display: flex;
-    flex-direction: column;
+.a-container {
+  display: flex;
+  flex-direction: column;
 }
-
-
+.a-tags:hover {
+  color: black;
+}
