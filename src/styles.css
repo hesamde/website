@@ -57,5 +57,5 @@ body {
   flex-direction: column;
 }
 .a-tags:hover {
-  color: black;
+  color: rgb(107, 107, 107);
 }
